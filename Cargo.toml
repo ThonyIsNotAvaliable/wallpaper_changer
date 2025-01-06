@@ -1,0 +1,12 @@
+[package]
+name = "wallpaper"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wallpaper = { version = "3.2.0", features = ["from_url"] }
+
+[[bin]]
+edition = "2018"
+name = "changewpp"
+path = "src/main.rs"
